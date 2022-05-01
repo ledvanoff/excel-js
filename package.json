@@ -4,7 +4,9 @@
   "description": "Excel on pure JS",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/ledvanoff/excel-js/issues"
   },
-  "homepage": "https://github.com/ledvanoff/excel-js#readme"
+  "homepage": "https://github.com/ledvanoff/excel-js#readme",
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
 }
