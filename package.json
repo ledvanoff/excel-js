@@ -1,0 +1,24 @@
+{
+  "name": "exceljs",
+  "version": "1.0.0",
+  "description": "Excel on pure JS",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ledvanoff/excel-js.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Oleg Ledvanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ledvanoff/excel-js/issues"
+  },
+  "homepage": "https://github.com/ledvanoff/excel-js#readme"
+}
